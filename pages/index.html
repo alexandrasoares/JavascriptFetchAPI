@@ -16,7 +16,7 @@
       <div class="row mt-3">
         <div class="col-md-6">
           <h3>Post</h3>
-          <form class="form">
+          <form class="post-form">
             <div class="form-group">
               <label for="titulo"> Titulo </label>
               <input type="text" class="form-control" id="titulo-value" />
@@ -24,7 +24,7 @@
 
             <div class="form-group">
               <label for="body"> Conteudo </label>
-              <textarea class="form-control" id="titulo-value"> </textarea>
+              <textarea class="form-control" id="conteudo-value"> </textarea>
             </div>
 
             <button type="submit" class="btn btn-primary">Adicionar</button>
@@ -33,36 +33,10 @@
       </div>
 
       <div class="lista-post row">
-        <div class="card mt-4 col-md-6 bg-ligt">
-          <div class="card-body">
-            <h5 class="card-title">Titulo Card</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus beatae voluptatem natus illo architecto eaque,
-              laudantium delectus earum eligendi id ad, tenetur cumque et
-              repellat ea nobis esse, officiis perspiciatis?
-            </p>
-            <a href="#" class="card-link"> Editar </a>
-            <a href="#" class="card-link"> Excluir </a>
-          </div>
-        </div>
 
-        <div class="card mt-4 col-md-6 bg-ligt">
-          <div class="card-body">
-            <h5 class="card-title">Titulo Card</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus beatae voluptatem natus illo architecto eaque,
-              laudantium delectus earum eligendi id ad, tenetur cumque et
-              repellat ea nobis esse, officiis perspiciatis?
-            </p>
-            <a href="#" class="card-link"> Editar </a>
-            <a href="#" class="card-link"> Excluir </a>
-          </div>
-        </div>
       </div>
     </div>
+
+    <script src="../controllers/post-controller.js"></script>
   </body>
 </html>
